@@ -1,0 +1,50 @@
+.about {
+  font-size: 20px;
+
+  margin: 20px;
+  padding: 10px;
+
+  line-height: 90px;
+}
+/* header */
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(249, 171, 133);
+  height: 120px;
+  width: 100%;
+}
+
+#logo img {
+  width: 120px;
+  position: relative;
+  right: 150px;
+  border-radius: 50%;
+  height: 100px;
+  top: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  position: relative;
+  left: 150px;
+}
+
+nav ul {
+  display: flex;
+  gap: 50px;
+}
+nav ul > li {
+  list-style-type: none;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+nav li {
+  font-size: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
